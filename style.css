@@ -11,13 +11,17 @@ div {
     display: block;
 }
 
-.section-1-img{
+.section-1-img {
     border: 3px yellow solid;
     background-image: url(https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/2022-04/KFCKentuckyFriedBuckquet.jpg?itok=F9Ysuj4-);
     min-height: 100%;
 }
 
-.section-1-img{
+.section-1-img {
+    background-attachment: scroll;
+}
+
+.section-1-img {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -26,9 +30,19 @@ div {
     background-attachment: fixed;
 }
 
-.menu {
-    border: 2px black solid;
-    background-color: black;
-    color: rgb(141, 139, 139);
+.section-1-text .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.section-1-text {
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
 }
 
