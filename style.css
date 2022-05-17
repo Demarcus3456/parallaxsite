@@ -83,6 +83,40 @@ section {
     padding: 50px 80px;
 }
 
+/*Section 2*/
+.section-dark-zero{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section-2-img{
+    height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://logo-marque.com/wp-content/uploads/2020/04/KFC-Embl%C3%A8me.png);
+    
+
+}
+
+.section-2-img-text{
+   
+    display: block;
+    font-size: 1.5em;
+   text-align: center;
+    font-weight: bold;
+    padding-top: 2.5em;
+    color: black;
+  
+    
+}
+
+/*end Section2*/
+
+
+
 /* Section 3 */
 .section-dark {
     background-color: #282e34;
